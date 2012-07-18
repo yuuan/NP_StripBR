@@ -8,9 +8,9 @@ if (!function_exists('sql_table')) {
 }
 
 class NP_StripBR extends NucleusPlugin {
-	function getName() {	return 'StripBR'; }
-	function getAuthor() {  return 'IWAMA Kazuhiko / yuuAn'; }
-	function getURL() {	 return 'http://www.sera.desuyo.net/'; }
+	function getName() { return 'StripBR'; }
+	function getAuthor() { return 'IWAMA Kazuhiko / yuuAn'; }
+	function getURL() { return 'http://www.sera.desuyo.net/'; }
 	function getVersion() { return '0.01.1'; }
 	function getDescription() {
 		return 'Remove linebreaks';
